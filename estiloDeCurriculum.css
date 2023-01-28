@@ -1,0 +1,76 @@
+#botonI,#botonE,#botonA{
+    
+    color: rgb(12, 230, 95);
+    padding: 30px;
+    border-radius: 18px;
+    border: 5px solid chartreuse;
+    cursor: pointer;
+    background: rgb(80, 66, 66);
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 15px;
+    margin: 50px;
+    
+    
+}
+
+
+
+#titulo{
+    color: mediumblue;
+    padding: 5px;
+    border: 5px solid chartreuse;
+    font-family: cursive;
+    background-color: grey;
+}
+
+#info{
+    color: rgba(12, 12, 241, 0.692);
+    padding: 8px;
+    border: 5px solid chartreuse;
+    font-family: sans-serif;
+    background-color: grey ;
+    font-size: large;
+}
+
+
+#img{
+    padding: 5px;
+    border: 5px solid grey;
+    
+     
+}
+
+#bocultar,#bmostrar{
+    border: none;
+    color: rgb(12, 230, 95);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    
+
+}
+
+#bocultar {
+    opacity: 0.5;
+  }
+  
+  #bocultar:hover {
+    opacity: 1.0;
+  }
+
+  #bmostrar {
+    opacity: 0.5;
+  }
+  
+  #bmostrar:hover {
+    opacity: 1.0;
+  }
+
+  *{
+    box-sizing: border-box;
+  }
